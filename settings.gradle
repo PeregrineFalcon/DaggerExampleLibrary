@@ -1,0 +1,2 @@
+include ':DaggerExampleMainApplication', ':DaggerExampleLibrary'
+rootProject.name='ExampleApplicationa'

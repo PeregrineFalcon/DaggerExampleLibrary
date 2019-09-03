@@ -19,6 +19,6 @@ public class ServiceBar {
 
     public void uploadImages() {
 
-        Log.d(TAG, "Uplloading Images");
+        Log.d(TAG, "Uploading Images");
     }
 }

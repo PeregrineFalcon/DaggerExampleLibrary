@@ -1,7 +1,5 @@
 package com.dagger.example.exampleapplication;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
 import com.dagger.example.daggerexamplelibrary.services.ServiceBar;
@@ -9,7 +7,9 @@ import com.dagger.example.daggerexamplelibrary.services.ServiceFoo;
 
 import javax.inject.Inject;
 
-public class MainActivity extends AppCompatActivity {
+import dagger.android.support.DaggerAppCompatActivity;
+
+public class MainActivity extends DaggerAppCompatActivity {
 
     @Inject
     ServiceFoo serviceFoo;
